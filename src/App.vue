@@ -14,7 +14,8 @@ import TheWelcome from './components/TheWelcome.vue'
     />
 
     <div class="wrapper">
-      <HelloWorld msg="Next Avatar Generator" />
+      <HelloWorld msg="Next Avatar Generator!" />
+      hello
     </div>
   </header>
 

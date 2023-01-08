@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import TitleBlock from './components/TitleBlock.vue'
+import PlayGround from './components/PlayGround.vue'
 </script>
 
 <template>
@@ -14,12 +14,12 @@ import TheWelcome from './components/TheWelcome.vue'
     />
 
     <div class="wrapper">
-      <HelloWorld msg="Next Avatar Generator!" />
+      <TitleBlock msg="Next Avatar Generator!" />
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <PlayGround />
   </main>
 </template>
 

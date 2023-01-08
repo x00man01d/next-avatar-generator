@@ -17,7 +17,7 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    color: hsla(160, 100%, 77%, 1);
   }
 }
 
@@ -32,4 +32,22 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+}
+
+.btn {
+  padding: 0.4rem 1rem;
+  font-size: 22px;
+  border-radius: 7px;
+  background-color: rgb(19, 77, 149);
+  color: white;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(10, 90, 164);
+}
+.btn:active {
+  background-color: rgb(15, 105, 130);
 }

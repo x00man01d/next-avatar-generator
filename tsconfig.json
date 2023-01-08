@@ -5,6 +5,22 @@
     "baseUrl": ".",
     "module": "es2022",
     "moduleResolution": "Node",
+    "esModuleInterop": true,
+    
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+
+    "allowJs": true,
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+
+
     "paths": {
       "@/*": ["./src/*"]
     }

@@ -16,6 +16,7 @@ const refreshAvatars = (quantity: number) => {
   data.value = newArray
 }
 </script>
+
 <template>
   <div class="playground">
     <div class="control">
@@ -23,11 +24,12 @@ const refreshAvatars = (quantity: number) => {
     </div>
     <div class="result">
       <div v-for="(item, index) in data" :key="index">
-        <SvgPic :data="item" :size="90" />
+        <SvgPic :data="item" :size="120" />
       </div>
     </div>
   </div>
 </template>
+
 <style scoped>
 .playground {
   padding: 2rem 0;

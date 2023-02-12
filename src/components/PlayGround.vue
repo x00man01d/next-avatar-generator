@@ -24,7 +24,7 @@ const refreshAvatars = (quantity: number) => {
     </div>
     <div class="result">
       <div v-for="(item, index) in data" :key="index">
-        <SvgPic :data="item" :size="120" />
+        <SvgPic :data="item" :size="30" />
       </div>
     </div>
   </div>

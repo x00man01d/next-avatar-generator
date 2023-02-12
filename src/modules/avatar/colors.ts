@@ -11,11 +11,11 @@ const randomHue = () => {
 }
 const randomSaturation = () => {
   // return Math.round(Math.random() * 100)
-  return Math.round(gaussianRand() * 100)
+  return Math.round(Math.random() * 100)
 }
 const randomLightNess = () => {
   // return Math.round(Math.random() * 100)
-  return Math.round(gaussianRand() * 100)
+  return Math.round(Math.random() * 100)
 }
 
 function gaussianRand() {

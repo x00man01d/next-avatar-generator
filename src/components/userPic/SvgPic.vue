@@ -41,7 +41,7 @@ const colorFromHSL = (hsl: HSL) =>
             width="120"
             :height="item.end * 1.2"
             :fill="colorFromHSL(item.color)"
-            fill-opacity="0.3"
+            fill-opacity="0.1"
           />
         </g>
         <g
@@ -55,7 +55,7 @@ const colorFromHSL = (hsl: HSL) =>
             width="120"
             :height="item.end * 1.2"
             :fill="colorFromHSL(item.color)"
-            fill-opacity="0.3"
+            fill-opacity="0.2"
           />
         </g>
       </g>

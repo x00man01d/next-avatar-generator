@@ -10,16 +10,16 @@ const randomStripes = () => {
     stripesBorders.push(randomPosition())
     stripesBorders.push(randomPosition())
   }
-  console.log(stripesBorders)
+
+  stripesBorders.sort((a, b) => a - b)
 
   for (let index = 0; index < stripesBorders.length; index = index + 2) {
     stripes.push({
       start: stripesBorders[index],
-      end: stripesBorders[index],
+      end: stripesBorders[index + 1],
       color: randomColor()
     })
   }
-  console.log(stripes)
   return stripes
 }
 
